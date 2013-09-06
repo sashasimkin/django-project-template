@@ -30,11 +30,12 @@ nosetests.xml
 # Translations
 *.mo
 
+# Django
+db.sqlite3
+settings_local.py
+
 # Virtual environment
 .env/
-
-# Local django settings
-settings_local.py
 
 # Mr Developer
 .mr.developer.cfg
